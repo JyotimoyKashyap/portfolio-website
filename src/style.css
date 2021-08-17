@@ -1,0 +1,95 @@
+section{
+    height: 500px;
+    background-color: white;
+    border: solid black 1px;
+}
+
+.hero{
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 25px;
+}
+
+footer{
+    height: 500px;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 400px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+li{
+    width: 200px;
+    text-decoration: none;
+}
+
+/* Default styling of the body content */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0px;
+}
+
+.hero-text{
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+p{
+    margin: 0px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Button styling  */
+.button{
+    width: 200px;
+    height: 50px;
+    padding-top: 12px;
+    border-radius: 40px;
+    background-color: coral;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+/* Button hover effect */
+.button:hover{
+    background-color: #ef744b;
+}
+
+.button:active{
+    background-color: #a9a9a9;
+    color: #808080;
+}
+
+.socials{
+    padding-bottom: 100px;
+}
