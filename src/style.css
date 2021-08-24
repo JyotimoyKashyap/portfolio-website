@@ -77,12 +77,17 @@ p{
 .button{
     width: 200px;
     height: 50px;
-    padding-top: 12px;
+    padding-top: 16px;
     border-radius: 40px;
     background-color: coral;
     text-align: center;
     margin-top: 20px;
     font-weight: 500;
+    font-size: 23px;
+    box-shadow: -2px -2px 8px rgb(42, 55, 75),
+                -2px -2px 12px rgba(78, 87, 124, 0.5),
+                inset 2px 2px 4px rgba(137, 149, 221, 0.26),
+                2px 2px 8px rgba(75, 70, 70, 0.15);
 }
 
 /* Button hover effect */
